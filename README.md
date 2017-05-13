@@ -21,7 +21,7 @@ Write a program that prints the numbers from 1 to the given number from `stdin`.
 
 Run locally before you submit: `PROBLEM=Fizzbuzz ./run.rb`
 
-Example: https://github.com/stewartpark/codegolf/pull/1
+Example: [Submission](https://github.com/stewartpark/codegolf/pull/1) [stdin](https://github.com/stewartpark/codegolf/blob/master/problems/Fizzbuzz/17.in)/[stdout](https://github.com/stewartpark/codegolf/blob/master/problems/Fizzbuzz/17.out)
 
 Submissions:
 [py](https://github.com/stewartpark/codegolf/pulls?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20label%3AFizzbuzz%20label%3Apy)
