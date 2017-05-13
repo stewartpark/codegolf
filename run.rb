@@ -24,9 +24,9 @@ EXPECTED   = File.read("problems/#{PROBLEM}/#{CHOSEN_DATA}.out").strip
 
 if GITHUB_TOKEN
   if OUTPUT == EXPECTED
-    HTTParty.put("https://#{GITHUB_TOKEN}@api.github.com/repos/#{GITHUB_REPO}/issues/#{GITHUB_PR_NUM}/labels", { body: [LANG, N_BYTES.to_s].to_json })
+    HTTParty.put("https://#{GITHUB_TOKEN}@api.github.com/repos/#{GITHUB_REPO}/issues/#{GITHUB_PR_NUM}/labels", { body: [PROBLEM, LANG, N_BYTES.to_s].to_json })
   else
-    HTTParty.put("https://#{GITHUB_TOKEN}@api.github.com/repos/#{GITHUB_REPO}/issues/#{GITHUB_PR_NUM}/labels", { body: ['ERROR'].to_json })
+    HTTParty.put("https://#{GITHUB_TOKEN}@api.github.com/repos/#{GITHUB_REPO}/issues/#{GITHUB_PR_NUM}/labels", { body: [PROBLEM, 'ERROR'].to_json })
   end
 else
   if OUTPUT == EXPECTED
