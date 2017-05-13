@@ -1,6 +1,8 @@
 #!/usr/bin/env ruby
 require 'httparty'
 require 'json'
+raise "Add a submission to the submission directory to start" if Dir['submission/*'].count == 0
+
 `docker build -t runner .`
 
 PATH          = `pwd`.strip
