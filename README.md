@@ -2,6 +2,8 @@
 
 Code-golf is a competition to solve a particular problem in the fewest bytes of source code.
 
+Each language has its own ranking.
+
 Supported languages:
  - py: Python 3.5.2
  - rb: Ruby 2.3.3p222
