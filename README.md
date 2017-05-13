@@ -9,7 +9,7 @@ Supported languages:
  - sh: bash 4.3
  - c: gcc 6.2.1
 
-Fork this repository, write your solution under `submission/`, and make a pull request. Problems will be changed every 6 months.
+Fork this repository, write your solution under `submission/`, and make a pull request.
 
 If the solution is the same, the first submitter will be the winner.
 
