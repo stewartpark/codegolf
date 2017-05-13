@@ -17,7 +17,7 @@ CHOSEN_DATA   = Dir["problems/#{PROBLEM}/*"].sample.split('/').last.split('.').f
 LANG          = SUBMISSION.split('.').last.downcase.gsub(/[^a-z]/, '')
 puts "#{LANG}: #{N_BYTES} byte(s)"
 
-COMMAND    = { 'py' => 'python3', 'js' => 'node', 'rb' => 'ruby' }.fetch(LANG)
+COMMAND    = { 'py' => 'python3', 'js' => 'node', 'rb' => 'ruby', 'sh' => 'bash', 'c' => 'run_c' }.fetch(LANG)
 OUTPUT     = `docker run --net=none -v #{PATH}/submission:/code -i runner #{COMMAND} /code/#{SUBMISSION} < problems/#{PROBLEM}/#{CHOSEN_DATA}.in`.strip
 EXPECTED   = File.read("problems/#{PROBLEM}/#{CHOSEN_DATA}.out").strip
 
