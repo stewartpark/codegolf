@@ -16,7 +16,7 @@ Fork this repository, write your solution under `submission/`, and make a pull r
 
 If the solution is the same, the first submitter will be the winner.
 
-## Fizzbuzz Challenge
+## 🏁 Fizzbuzz Challenge
 
 Write a program that prints the numbers from 1 to the given number from `stdin`. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”.
 
