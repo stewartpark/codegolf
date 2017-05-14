@@ -10,6 +10,7 @@ Supported languages:
  - js: Node v6.9.5
  - sh: bash 4.3
  - c: gcc 6.2.1
+ - rs: Rust 1.17.0
 
 Fork this repository, write your solution under `submission/`, and make a pull request.
 
